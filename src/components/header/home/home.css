@@ -1,0 +1,19 @@
+.home_content {
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+
+}
+
+.home_img {
+    background: url(C:\Users\direx\one-page-portfolio\src\assets\profile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 20%);
+    order: 1;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+}
